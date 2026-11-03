@@ -911,7 +911,7 @@ function App(){
 
           <div className="io">
             <button onClick={exportAll}>↓ Export</button>
-            <button onClick={importAll}>↑ Import</button>
+            <button title="Import property data from an existing JSON file" aria-label="Import property data from JSON" onClick={importAll}>↑ Import JSON</button>
             <button onClick={()=>setModal('sync')} disabled={syncing}>☁ Sync</button>
           </div>
         </div>
